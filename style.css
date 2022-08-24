@@ -1,0 +1,20 @@
+.rounded-img {
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 0.1em;
+  margin-bottom: 1em;
+}
+.card {
+    width: 80%;
+    border-radius: 1em;
+    text-align: center;
+  }
+
+  .card:hover {
+  transform: translateY(20px) scale(1.15);
+  transform-origin: 50% bottom;
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  
